@@ -206,4 +206,69 @@ input,textarea,select{
 .my-3{margin-top: 16px;margin-bottom: 16px;}
 .my-4{margin-top: 24px;margin-bottom: 24px;}
 .my-5{margin-top: 48px;margin-bottom: 48px;}
-.my-6{margin-top: 60px;margin-bottom: 60px;}
+.my-6{margin-top: 60px;margin-bottom: 60px;}  
+
+
+.mx-1{margin-left: 4px; margin-right: 4px;}
+.mx-2{margin-left: 8px; margin-right: 8px;}
+.mx-3{margin-left: 16px; margin-right: 16px;}
+.mx-4{margin-left: 24px; margin-right: 24px;}
+.mx-5{margin-left: 48px; margin-right: 48px;}
+.mx-6{margin-left: 60px; margin-right: 60px;}
+
+//section
+.main-holder{
+  overflow-x: hidden;
+}
+
+.section-wrapper{
+  padding: 80px 0;
+}
+
+.sc-title{
+  text-transform: uppercase;
+  margin-bottom: 4.8rem;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 4px;
+  position: relative;
+  padding: 4px 0;
+  position: relative;
+
+  &::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left:0;
+    height:4px;
+    width:80px;
+    background-color: $clr-orange;
+  }
+}
+
+//opacity
+.op{
+  &-01{opacity: 0.1;}
+  &-02{opacity: 0.2;}
+  &-03{opacity: 0.3;}
+  &-04{opacity: 0.4;}
+  &-05{opacity: 0.5;}
+  &-06{opacity: 0.6;}
+  &-07{opacity: 0.7;}
+  &-08{opacity: 0.8;}
+  &-09{opacity: 0.9;}
+  
+}
+
+.breadcrumb{
+  box-shadow: rgba(99,99,99,0.1) 0px 2px 8px 0px;
+  padding: 1rem 2rem;
+  margin-bottom: 3.2rem;
+
+  li{
+    transition: $transition;
+    &:hover{
+      opacity: 0.9;
+    }
+  }
+}

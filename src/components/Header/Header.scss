@@ -15,3 +15,20 @@
         margin-right:12px;
     }
 }
+
+.scrolled{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.header{
+    .header-content{
+        height:400px;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url("../../assets/images/header_image.jpeg") center/cover no-repeat
+    }
+    .header-title{
+        margin-top: 2.4rem;
+    }
+}
